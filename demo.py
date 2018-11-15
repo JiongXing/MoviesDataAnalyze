@@ -25,7 +25,6 @@ matrix = pd.DataFrame(matrix, columns=genre_series)
 print(matrix.head(5))
 
 title("给矩阵赋值")
-# 遍历电影类别
 for index in range(len(genre_data)):
     genre = genre_data[index]
     # loc方法可以传入列名数组，选出所有列
